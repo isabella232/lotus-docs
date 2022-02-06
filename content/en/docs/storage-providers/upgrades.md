@@ -1,7 +1,7 @@
 ---
 title: "Upgrades"
-description: "This guide covers how to safely upgrade Lotus when running a miner."
-lead: "This guide covers how to safely upgrade Lotus when running a miner."
+description: "This page covers how to safely upgrade Lotus when running a miner."
+lead: "This page covers how to safely upgrade Lotus when running a miner."
 draft: false
 menu:
     docs:
@@ -10,7 +10,7 @@ weight: 498
 toc: true
 ---
 
-The are two types of upgrades: 
+The are two types of upgrades:
 
 - The [upgrade in-place](#upgrade-in-place) is the default procedure and just updates the software
 - The [upgrade with reset](#upgrade-with-reset) removes all the data and starts from scratch.
@@ -107,4 +107,3 @@ rm -rf ~/.lotusworker
 ```
 
 After that Lotus applications will start from scratch.
-

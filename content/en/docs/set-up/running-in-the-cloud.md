@@ -37,7 +37,7 @@ curl -X POST -H 'Content-Type: application/json' \
 
 We regularly publish AMIs for each of the [filecoin networks](https://network.filecoin.io/). To use one of these images, just search for one of our AMIs. You can use this [example link which populates a search for Lotus in the `us-west-2` region](https://us-west-2.console.aws.amazon.com/ec2/v2/home?region=us-west-2#Images:visibility=public-images;search=lotus-mainnet;ownerAlias=657871693752;sort=name).
 
-After you launch your AWS instance, you should log in with the 'ubuntu' account. The filecoin instance runs a host-based firewall (UFW) which blocks all incomming ports except for port 22 and 5678 (libp2p). This works well if you want to place your instance behind a permissive security group.
+After you launch your AWS instance, you should log in with the 'ubuntu' account. The filecoin instance runs a host-based firewall (UFW) which blocks all incoming ports except for port 22 and 5678 (libp2p). This works well if you want to place your instance behind a permissive security group.
 
 ```shell
 ssh ubuntu@<your_instance_public_ipv4>
@@ -83,4 +83,3 @@ Now that the stateroot has been downloaded successfully, you can interact with t
 [mainnet ~] ⨎ lotus net peers
 <see current peers here>
 ```
-

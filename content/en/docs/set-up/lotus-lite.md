@@ -59,7 +59,7 @@ If you are using a node-hosting service like [Glif](https://www.glif.io/) or [In
 1. Send this API token to your lite-node or to whoever will be the administrator for the lite-node.
 1. If you have the `lotus daemon` running, stop it and start it again. This forces Lotus to open the API port we just set.
 
-Next up, you'll create the Lotus executable on your lite-node and running it in _lite_ mode!
+Next up, you'll create the Lotus executable on your lite-node and start running it in _lite_ mode!
 
 ## Create the executable
 

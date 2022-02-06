@@ -1,7 +1,7 @@
 ---
 title: 'Manage FIL'
-description: "This guide will show you how to create and manage a Lotus wallet and how to use it to send some Filecoin to a different address. Each node can have multiple addresses."
-lead: "This guide will show you how to create and manage a Lotus wallet and how to use it to send some Filecoin to a different address. Each node can have multiple addresses."
+description: "This guide will show you how to create and manage a Lotus wallet and how to use it to send some filecoin to a different address. Each node can have multiple addresses."
+lead: "This guide will show you how to create and manage a Lotus wallet and how to use it to send some filecoin to a different address. Each node can have multiple addresses."
 draft: false
 menu:
     docs:
@@ -134,7 +134,7 @@ lotus send --help
 
 #### Specify Invocation Parameters
 
-If you want specify invocation parameters using `lotus send`, you can use the following code-snippet to get the encoded parameters
+If you want to specify invocation parameters using `lotus send`, you can use the following code-snippet to get the encoded parameters
 
 ```shell
 lotus chain encode params --encoding=hex <toAddr> <method id> <params>

@@ -1,7 +1,7 @@
 ---
 title: "Payment channels"
-description: "Payment channels are used to transfer funds between two actors. This guide explains how payment channels work in Lotus and provides some examples about how to operate with them."
-lead: "Payment channels are used to transfer funds between two actors. This guide explains how payment channels work in Lotus and provides some examples about how to operate with them."
+description: "Payment channels are used to transfer funds between two actors. This page explains how payment channels work in Lotus and provides some examples about how to operate with them."
+lead: "Payment channels are used to transfer funds between two actors. This page explains how payment channels work in Lotus and provides some examples about how to operate with them."
 draft: false
 menu:
     docs:
@@ -85,4 +85,3 @@ Once the settlement period is over, either the client or provider can call colle
 ```shell
 lotus paych collect <channel addr>
 ```
-

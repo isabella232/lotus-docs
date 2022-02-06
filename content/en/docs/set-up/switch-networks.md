@@ -1,7 +1,7 @@
 ---
 title: "Switch networks"
-description: "This guide will show you how to switch between various Filecoin networks with Lotus, depending on your testing or development needs."
-lead: "This guide will show you how to switch between various Filecoin networks with Lotus, depending on your testing or development needs."
+description: "This page will show you how to switch between various Filecoin networks with Lotus, depending on your testing or development needs."
+lead: "This page will show you how to switch between various Filecoin networks with Lotus, depending on your testing or development needs."
 draft: false
 menu:
     docs:

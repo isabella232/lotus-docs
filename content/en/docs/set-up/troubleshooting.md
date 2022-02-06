@@ -1,7 +1,7 @@
 ---
 title: "Troubleshooting"
-description: "This page offers some troubleshooting advice for Lotus nodes by listing some of the most common errors that users can come accross."
-lead: "This page offers some troubleshooting advice for Lotus nodes by listing some of the most common errors that users can come accross."
+description: "This page offers some troubleshooting advice for Lotus nodes by listing some of the most common errors that users can come across."
+lead: "This page offers some troubleshooting advice for Lotus nodes by listing some of the most common errors that users can come across."
 draft: false
 menu:
     docs:
